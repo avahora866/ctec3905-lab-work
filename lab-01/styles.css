@@ -1,7 +1,16 @@
 body {
-  background: yellow;
+  background: lightblue;
+  margin: auto;
+  max-width: 900px;
 }
 
 h1{
-  color: red;
+  color: darkblue;
+  font-size: 3em;
+  font-family: monospace;
+}
+
+.special {
+  color: lightblue;
+  background: darkblue;
 }
