@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+div {
+  background-color: yellow;
+  padding: 2em;
+  margin: 2em 0 2em 10em;
+  border: 2em solid green;
+}
+
+div.box-demo {
+  border-radius: 3em;
+  border: 5px dashed red;
+  border-width: 10px;
+  padding-left: 4em;
+}
