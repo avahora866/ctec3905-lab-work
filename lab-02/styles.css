@@ -1,9 +1,45 @@
 nav {
-  background-color: yellow;
+  display: flex;
+  background-color: #444B37;
+  flex-direction: column;
+  width: 18vw;
 }
 
-a{
-  background-color: red;
-  padding: 2em;
-  text-align: right;
+nav a{
+  background-color: #6FA014;
+  padding: 0.5em;
+  margin: 0.25em;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.7s;
+}
+
+nav a:hover {
+  background-color: #20D1AE;
+}
+
+header, main {
+  overflow: auto;
+  background-color: #97D034;
+}
+
+main {
+  width: 98.8vw;
+  overflow: auto;
+  display: flex;
+}
+
+section {
+  overflow: auto;
+}
+
+p {
+  padding-left: 1em;
+  padding-right: 1em;
+  box-sizing: border-box;
+}
+
+h2 {
+  padding-left: 0.5em;
+  padding-right: 1em;
 }
