@@ -1,6 +1,6 @@
-/* nav {
-  text-align: right;
-} */
+body {
+  font-family: sans-serif;
+}
 
 nav {
   display: flex;
@@ -13,22 +13,65 @@ nav a {
   text-decoration:none;
   padding: 0.5em 0.5em;
   border-radius: 5px;
+  color: #5badf0;
+}
+
+nav a:hover {
+  color: #4361b3;
 }
 
 nav a:last-child {
-  background-color: blue;
+  background-color: #5badf0;
   color: white;
+}
+
+img {
+  border-radius: 50%;
 }
 
 header {
   text-align: center;
+  margin: 5em auto;
+  border-bottom: 1.5px solid #eee;
+  padding-bottom: 1.5em;
+  width: 550px
+}
+
+header h1 {
+  font-size: 2.5em;
   margin: 0;
 }
 
-header img {
-  border-radius: 50%;
+header h2 {
+  color: gray;
+  margin: 0.5em;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
-header h3 {
-  
+header h2 span{
+  color: red
+}
+
+main {
+  width: 550px;
+  margin: auto;
+}
+
+main article {
+  display: flex;
+  align-items: flex-start;
+}
+
+section {
+  margin-left: 25px;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+main h2 {
+  margin-top: 0;
+  font-weight: normal;
 }
