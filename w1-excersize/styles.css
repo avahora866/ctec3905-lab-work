@@ -4,7 +4,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-contxent: flex-end;
   font-size: 0.9em;
   font-family: sans-serif;
 }
